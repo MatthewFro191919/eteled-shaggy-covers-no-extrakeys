@@ -7,6 +7,8 @@ echo Makking the main haxelib and setuping folder in same time..
 mkdir ~/haxelib && haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
+sudo apt-get install gcc-multilib
+sudo apt-get install gcc-multilib g++-multilib
 haxelib install lime 7.9.0
 haxelib install openfl
 haxelib install flixel
